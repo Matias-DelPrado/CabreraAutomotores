@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+             /*RESPONSIVE*/
+
+@media screen and (max-width: 480px){
+    #contenedor{
+        flex-direction: column;
+        width: 40%;
+    }
+    img .etios{
+       width: 300px;
+    }
+    img .hilux{
+        width: 300px;
+    }
+    .corolla{
+        width: 300px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .caja_nuevo1{
+        background-color: rebeccapurple;
+        flex-direction: column;
+    }
+}
+
+            /*BARRA DE NAVEGACION*/
+
+
+header{
+    color: black;
+ }
+
+.logoo{
+    width: 150px;
+    height: 150px;
+}
+            
+nav{
+    
+    background-color: black; 
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+             /*CUERPO DE PAGINA*/
+
+
+body { 
+    background-color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+section{
+    display: flex;
+}
+h2{
+    
+    font-size: 80px;
+    background-color: grey;
+   
+}
+p{
+    font-size: 30px;
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.fondo{
+    background-color:white;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+.TOYOTA {
+    height: 200px;
+    font-size: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+            /*AUTOS DE PORTADA*/
+#contenedor{
+    width: 100%;
+    margin: 0 ;
+}
+
+.corolla {
+    margin-top: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 190%;
+    width: 50%;
+    border-bottom: 1px solid black;
+    justify-content: center;
+}
+
+
+
+.etios {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 8%;
+    width: 40%;
+    border-bottom: 1px solid black;
+}
+  
+
+.hilux {
+    margin-top: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1100px;
+    border-bottom: 1px solid black;
+}
+.col{
+    border: 2px solid black;
+    margin: 40px;
+}
+    
+           /*PIE DE PÁGINA*/
+.buscanos{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+footer img{
+
+    width: 100px;
+    height: 100px;
+    display: flex;;
+}
+
+.mapa{
+    height: 150px;
+    width: 300px;
+}
+
+.cajas{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap ;    
+}
+
+.container2{
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+                 /*AUTOS USADOS*/
+
+
+        /*Fotos Autos*/
+
+.coche1{
+    height: 400px;
+    width: 600px;
+
+}
+.coche2{
+    height: 400px;
+    width: 600px;
+
+}
+.coche3{
+    height: 400px;
+    width: 600px;
+
+}
+.coche4{
+    height: 400px;
+    width: 600px;
+
+}
+            /*Grid a las cajas*/
+
+.noflex{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.caja_usado1{
+    width: 500px;
+    height: 300px;
+    background-color: grey;
+}
+.stiki{
+    position: sticky;
+    height: 80px;
+    width: 80px;
+    left: 2000px;
+    top: 400px;
+}
+.sticky{
+    height: 80px;
+    width: 80px;
+    position: sticky;
+    left: 2000px;
+    top: 400px;
+}
+
+                /*AUTOS NUEVOS*/
+
+        /*Fotos de los autos*/
+
+
+.nuevo1{
+    height: 70%;
+    width: 100%;
+}
+.nuevo2{
+    height: 70%;
+    width: 100%;
+}
+.nuevo3{
+    height: 70%; 
+    width: 100%;
+}
+.nuevo4{
+    height: 70%;
+    width: 100%;
+}
+
+       /*Caja de los autos*/
+
+
+.caja_nuevo1{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    background-color: white;
+    justify-content: center;
+}
+
+        /*SOBRE NOSOTROS*/
+
+.fondonosotros{
+    background-image: url(../image/fondo.png);
+    height: 100vh;
+    width: 90vw;
+    background-repeat: no-repeat;
+    justify-content: center;
+
+}
